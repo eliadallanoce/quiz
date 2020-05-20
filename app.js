@@ -1,8 +1,9 @@
-/*const express= require('express');
+const express= require('express');
 const app= express();
 var port = process.env.PORT || 3000;
 app.get('/', (req, res)=> res.send("ciaoo11"));
-app.listen(port, ()=> console.log('server in ascolto:'+ port));*/
+app.listen(port, ()=> console.log('server in ascolto:'+ port));
+/*
 const express = require('express'); 
 const app = express();
 app.use('/CSS', express.static('CSS'));
@@ -212,4 +213,4 @@ app.route("/aggiungidom")
     })
 app.listen(port, () => console.log('il server è in ascolto sulla porta ' + port)); 
 app.get('/', (req, res)=> res.send("ciaoo11"));
-app.listen(port, ()=> console.log('server in ascolto:'+ port));
+app.listen(port, ()=> console.log('server in ascolto:'+ port));*/
